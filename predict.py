@@ -56,4 +56,5 @@ plt.imshow(denoised, cmap="gray")
 plt.title("Denoised")
 plt.axis("off")
 
-plt.show()
+plt.savefig("assets/result.png")
+print("Prediction image saved in assets/result.png")
